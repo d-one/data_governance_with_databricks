@@ -5,9 +5,9 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC CREATE DATABASE IF NOT EXISTS store_data_catalog.blog_post_store_transactions_db_sca;
+# MAGIC CREATE DATABASE IF NOT EXISTS store_data_catalog.blog_post_store_transactions_db;
 # MAGIC
-# MAGIC USE store_data_catalog.blog_post_store_transactions_db_sca
+# MAGIC USE store_data_catalog.blog_post_store_transactions_db
 
 # COMMAND ----------
 
