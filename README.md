@@ -5,8 +5,8 @@ Medium post link :
 
 # How to use the content
 Steps:
-    * Downlod the DBC archive file from this repo
-    * Upload it to your workspace in Databricks
-    * Run the Notebook
-    * ...
+ * Downlod the DBC archive file from this repo
+ * Upload it to your workspace in Databricks
+ * Run the Notebook
+ * ...
     
