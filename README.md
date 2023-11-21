@@ -1,4 +1,4 @@
-# data_governance_with_databricks
+# Basic Data Governance with Databricks
 Repository for the D ONE blogpost for basic data governance using Databricks
 
 Medium post link : 
