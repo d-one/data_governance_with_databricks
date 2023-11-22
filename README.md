@@ -23,7 +23,7 @@ General:
 
 #### Configuring visualisations
 
-##### Detailed health check report
+##### 1. Detailed health check report
 Navigate to the query "blog_post_generating_dq_report". After execution there will appear a tab called "Results" at the bottom. Double click on the name "Results" and change it to something meaningful, such as "Full data quality check report". Click on the arrow next to the tab name and choose edit as indicated by the following image:
 
 ![Configure Report p1](./images/configure_table_p1.png)
@@ -40,7 +40,7 @@ After clicking on "Save" at the bottom right corner navigate back to query, and 
 
 ![Configure Report p4](./images/configure_table_p4.png)
 
-##### Summary doughnut charts for data quality categories 
+##### 2. Summary doughnut charts for data quality categories 
 Navigate to the query "blog_post_dq_category_summary". Similarly to the steps in (1) rename the "Results" to something meaningful, such as "dq_summary_category". In the "Edit" pop-up choose "Pie" under "Visualization type" and set the X column to "Check Status" and the Y to Count (Sum). Group by the "check_type". Your configuration should be similar to this:
 
 ![Configure Summary p1](./images/configure_doughnut_p1.png)
@@ -51,12 +51,12 @@ To set the colours navigate to the "Colors" tab and click on the colour to chang
 
 Your doughnut charts should look like in the previous image.
 
-##### General information regarding data checks execution:
+##### 3. General information regarding data checks execution:
 Navigate to the query "blog_post_last_dq_execution". Similarly to the previous steps rename the "Results" to something meaningful, such as "last_dq_execution". In the "Edit" pop-up choose "Details View"; it should now look like this:
 
 ![Configure Details View](./images/configure_detail_view.png)
 
-#### Create a dashboard
+#### Creating a dashboard
 
 You can create a dashboard from within a query. Navigate to the one of the queries, for example to "blog_post_generating_dq_report". Click on the menu from next to one of results tabs (in which we configured the visualisations) and choose "Add to dashboard" as depicted here:
 
