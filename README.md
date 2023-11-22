@@ -22,28 +22,36 @@ General:
 * Configure visualisations and create a data quality dashboard (see additional instructions below)
 
 #### Configuring visualisations
-1. Detailed health check report:
+
+##### Detailed health check report
 Navigate to the query "blog_post_generating_dq_report". After execution there will appear a tab called "Results" at the bottom. Double click on the name "Results" and change it to something meaningful, such as "Full data quality check report". Click on the arrow next to the tab name and choose edit as indicated by the following image:
 
 ![Configure Report p1](./images/configure_table_p1.png)
+
 A window should open with options to configure the visualisation. In this case we are interested in a detailed, tabular report, therefore, make sure the upper left corner shows "Table" under "Visualization type":
 
 ![Configure Report p2](./images/configure_table_p2.png)
+
 To draw attention to failed checks we would like to colour several attributes in orange. Click on each of the following attributes: "Check", "Data Element" and "Check Status" and add a condition as shown in the following image: 
+
 ![Configure Report p3](./images/configure_table_p3.png)
+
 After clicking on "Save" at the bottom right corner navigate back to query, and you should the result at the bottom looking similar to the following image (mind, the exact values may be different):
 
 ![Configure Report p4](./images/configure_table_p4.png)
 
-2. Summary doughnut charts for data quality categories: Navigate to the query "blog_post_dq_category_summary". Similarly to the steps in (1) rename the "Results" to something meaningful, such as "dq_summary_category". In the "Edit" pop-up choose "Pie" under "Visualization type" and set the X column to "Check Status" and the Y to Count (Sum). Group by the "check_type". Your configuration should be similar to this:
+##### Summary doughnut charts for data quality categories 
+Navigate to the query "blog_post_dq_category_summary". Similarly to the steps in (1) rename the "Results" to something meaningful, such as "dq_summary_category". In the "Edit" pop-up choose "Pie" under "Visualization type" and set the X column to "Check Status" and the Y to Count (Sum). Group by the "check_type". Your configuration should be similar to this:
 
 ![Configure Summary p1](./images/configure_doughnut_p1.png)
+
 To set the colours navigate to the "Colors" tab and click on the colour to change it to the ones presented in the image below:
 
 ![Configure Summary p2](./images/configure_doughnut_p2.png)
+
 Your doughnut charts should look like in the previous image.
 
-3. General information regarding data checks execution:
+##### General information regarding data checks execution:
 Navigate to the query "blog_post_last_dq_execution". Similarly to the previous steps rename the "Results" to something meaningful, such as "last_dq_execution". In the "Edit" pop-up choose "Details View"; it should now look like this:
 
 ![Configure Details View](./images/configure_detail_view.png)
@@ -79,4 +87,4 @@ You can customise the title under "Customize the title for this widget":
 
 Once you are done reviewing other options don't forget to click "Save" at the bottom-right - you might need to scroll for this.
 
-After applying all the changes click on "Done editing" at the upper right corner and voila - you dashboard is ready :)
+After applying all the changes click on "Done editing" at the upper right corner and voilà - you dashboard is ready :)
