@@ -3,7 +3,7 @@ Repository for the D ONE blogpost for basic data governance using Databricks
 
 Medium post link : 
 
-### Recreating the Sotre Transactions example
+### Recreating the Store Transactions example
 
 In order to be able to recreate the example you need to have modification rights for a catalog, please contact your admin if you don't. Alternatively, see the following documentation if you need to create a new one: https://docs.databricks.com/en/data-governance/unity-catalog/create-catalogs.html
 
