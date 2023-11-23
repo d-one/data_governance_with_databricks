@@ -12,11 +12,11 @@ In the materials below the catalog is assumed to be named "store_data_catalog". 
 ### Steps
 
 General:
-* Downlod the DBC archive file from this repo
+* Download the DBC archive file from this repo
 * Upload it to your workspace in Databricks via import file. It should contain: 1 notebook and 3 sql queries, as well as 2 folders: "data" containing store_transactions_data.csv file and "images".
 * If needed - change the name of the catalog in the notebook (mind, there are multiple locations) and the sql queries
 * Run the Notebook
-* Review the result in the catalog. It should looke similar to the following image:
+* Review the result in the catalog. It should look similar to the following image:
 ![Expected Catalog](./images/expected_catalog.png)
 * Run the data quality queries. The simplest way to do is to open each of the queries and click on "Run".
 * Configure visualisations and create a data quality dashboard (see additional instructions below)
@@ -28,7 +28,7 @@ Navigate to the query "blog_post_generating_dq_report". After execution there wi
 
 ![Configure Report p1](./images/configure_table_p1.png)
 
-A window should open with options to configure the visualisation. In this case we are interested in a detailed, tabular report, therefore, make sure the upper left corner shows "Table" under "Visualization type":
+A window should open with options to configure the visualisation. In this case we are interested in a detailed, tabular report. Therefore, make sure the upper left corner shows "Table" under "Visualization type":
 
 ![Configure Report p2](./images/configure_table_p2.png)
 
@@ -36,7 +36,7 @@ To draw attention to failed checks we would like to colour several attributes in
 
 ![Configure Report p3](./images/configure_table_p3.png)
 
-After clicking on "Save" at the bottom right corner navigate back to query, and you should the result at the bottom looking similar to the following image (mind, the exact values may be different):
+After clicking on "Save" at the bottom right corner navigate back to query, you should see the result at the bottom looking similar to the following image (mind, the exact values may be different):
 
 ![Configure Report p4](./images/configure_table_p4.png)
 
@@ -52,13 +52,13 @@ To set the colours navigate to the "Colors" tab and click on the colour to chang
 Your doughnut charts should look like in the previous image.
 
 ##### 3. General information regarding data checks execution:
-Navigate to the query "blog_post_last_dq_execution". Similarly to the previous steps rename the "Results" to something meaningful, such as "last_dq_execution". In the "Edit" pop-up choose "Details View"; it should now look like this:
+Navigate to the query "blog_post_last_dq_execution". Similarly to the previous steps, rename the "Results" to something meaningful, such as "last_dq_execution". In the "Edit" pop-up choose "Details View"; it should now look like this:
 
 ![Configure Details View](./images/configure_detail_view.png)
 
 #### Creating a dashboard
 
-You can create a dashboard from within a query. Navigate to the one of the queries, for example to "blog_post_generating_dq_report". Click on the menu from next to one of results tabs (in which we configured the visualisations) and choose "Add to dashboard" as depicted here:
+You can create a dashboard from within a query. Navigate to one of the queries, for example to "blog_post_generating_dq_report". Click on the menu from next to one of results tabs (in which we configured the visualisations) and choose "Add to dashboard" as depicted here:
 
 ![Create Dashboard p1](./images/create_dashboard_p1.png)
 
@@ -73,7 +73,7 @@ From the menu on the left hand-side go to the "Dashboard" section. You should se
 
 ![Create Dashboard p3](./images/create_dashboard_p3.png)
 
-Opening the dashboard you should see the 3 visualisations looking somewhat messy. Choose "Edit" in the menu in the top-right corner (next to the "Refresh" button). Organise the dashboard by licking and drag-and-dropping the different visualisations to the wished locations. The bottom right corner has an arrow that allows resizing (see the blue rectangle in the doughnut charts):
+Having opened the dashboard, you should see the 3 visualisations looking somewhat messy. Choose "Edit" in the menu in the top-right corner (next to the "Refresh" button). Organise the dashboard by clicking and drag-and-dropping the different visualisations to the desired locations. The bottom right corner has an arrow that allows resizing (see the blue rectangle in the doughnut charts):
 
 ![Create Dashboard p4](./images/create_dashboard_p4.png)
 
@@ -87,4 +87,4 @@ You can customise the title under "Customize the title for this widget":
 
 Once you are done reviewing other options don't forget to click "Save" at the bottom-right - you might need to scroll for this.
 
-After applying all the changes click on "Done editing" at the upper right corner and voilà - you dashboard is ready :)
+After applying all the changes click on "Done editing" at the upper right corner and voilà - your dashboard is ready :)
