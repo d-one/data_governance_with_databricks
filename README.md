@@ -13,7 +13,7 @@ In the materials below the catalog is assumed to be named "store_data_catalog". 
 
 General:
 * Downlod the DBC archive file from this repo
-* Upload it to your workspace in Databricks via import file. It should contain 1 notebook and 3 sql queries.
+* Upload it to your workspace in Databricks via import file. It should contain: 1 notebook and 3 sql queries, as well as 2 folders: "data" containing store_transactions_data.csv file and "images".
 * If needed - change the name of the catalog in the notebook (mind, there are multiple locations) and the sql queries
 * Run the Notebook
 * Review the result in the catalog. It should looke similar to the following image:
