@@ -9,13 +9,15 @@ In order to be able to recreate the example you need to have modification rights
 
 In the materials below the catalog is assumed to be named "store_data_catalog". Make sure you change it to the name of the catalog you are planning to work with.
 
+This readme does not deal with the configuration of compute to be used for running the notebook and queries. For this, either talk to your admin or visit the documentation, starting for example here: https://docs.databricks.com/en/clusters/configure.html.
+
 ### Steps
 
 General:
 * Download the DBC archive file from this repo
 * Upload it to your workspace in Databricks via import file. It should contain: 1 notebook and 3 sql queries, as well as 2 folders: "data" containing a store_transactions_data.csv file and "images" containing files loaded into this readme.
 * If needed - change the name of the catalog in the notebook (mind, there are multiple locations) and the sql queries
-* Run the Notebook
+* Run the Notebook by opening the file and licking on "Run all".
 * Review the result in the catalog. It should look similar to the following image:
 ![Expected Catalog](./images/expected_catalog.png)
 * Run the data quality queries. The simplest way to do is to open each of the queries and click on "Run".
