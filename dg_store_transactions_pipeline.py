@@ -26,7 +26,7 @@ import re
 
 # data location from path
 
-path = "../data/store_transactions_data.csv"
+path = "./data/store_transactions_data.csv"
 
 # COMMAND ----------
 

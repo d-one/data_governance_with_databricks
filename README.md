@@ -15,9 +15,9 @@ This readme does not deal with the configuration of compute to be used for runni
 
 - 1 python file (will be interpreted as notebook on Databricks) 
 - 3 folders: 
-  1. "data": has a single store_transactions_data.csv file
-  2. "queries": having 3 sql files
-  3. "images": containing files loaded into this readme
+  1. "data" has a single store_transactions_data.csv file
+  2. "queries" with .3 sql files
+  3. "images" containing files loaded into this readme
 
 ### Steps
 
@@ -27,9 +27,11 @@ This readme does not deal with the configuration of compute to be used for runni
 * If needed - change the name of the catalog in the notebook (mind, there are multiple locations throughout the sections) and the sql files.
 * Run the Notebook by opening the file and licking on "Run all".
 * Review the result in the "Catalog" section from the menu on the left. It should look similar to the following image:
+
 ![Expected Catalog](./images/expected_catalog.png)
-* Create Databricks queries out of the SQL files (see instruction below).
-* Run the data quality queries. The simplest way to do is to open each of the queries and click on "Run".
+
+* Create Databricks queries out of the .sql files (see instruction below).
+* Run the data quality queries. The simplest way to do so is to open each of the queries and click on "Run".
 * Configure visualisations and create a data quality dashboard (see additional instructions below).
 
 #### Creating queries
@@ -38,7 +40,7 @@ Open the "SQL editor" from the menu on the left and copy-paste the code of a sql
 
 ![Expected Query](./images/expected_query.png)
 
-You can verify that a query was created by seeing it in the "Queries" section, and by the end of the process you should see 3 different ones. For better compatibility with the rest of the instructions we recommend to rename each query to the name of the corresponding sql file. Note that changes aren't automatically captured, so you need to explicitly save a query after each modification.
+You can verify that a query was created by seeing it in the "Queries" section, and by the end of the process you should see 3 different ones. For better compatibility with the rest of the instructions we recommend to rename each query using the name of the corresponding sql file. Note that changes aren't automatically captured, so you need to explicitly save a query after each modification.
 
 #### Configuring visualisations
 
@@ -60,7 +62,7 @@ After clicking on "Save" at the bottom right corner navigate back to query, you 
 ![Configure Report p4](./images/configure_table_p4.png)
 
 ##### 2. Summary doughnut charts for data quality categories 
-Navigate to the query "blog_post_dq_category_summary". Similarly to the steps in (1) rename the "Results" to something meaningful, such as "dq_summary_category". In the "Edit" pop-up choose "Pie" under "Visualization type" and set the X column to "Check Status" and the Y to Count (Sum). Group by the "check_type". Your configuration should be similar to this:
+Navigate to the query "blog_post_dq_category_summary". Similarly to the steps in (1), rename the "Results" to something meaningful, such as "dq_summary_category". In the "Edit" pop-up choose "Pie" under "Visualization type" and set the X column to "Check Status" and the Y to "Count" (Sum). Group by the "check_type". Your configuration should be similar to this:
 
 ![Configure Summary p1](./images/configure_doughnut_p1.png)
 
