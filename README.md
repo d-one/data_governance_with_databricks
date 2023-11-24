@@ -11,12 +11,20 @@ In the materials below the catalog is assumed to be named "store_data_catalog". 
 
 This readme does not deal with the configuration of compute to be used for running the notebook and queries. For this, either talk to your admin or visit the documentation, starting for example here: https://docs.databricks.com/en/clusters/configure.html.
 
+### Contents
+
+- 1 python file (will be interpreted as notebook on Databricks) 
+- 3 folders: 
+  1. "data": has a single store_transactions_data.csv file
+  2. "queries": having 3 sql files
+  3. "images": containing files loaded into this readme
+
 ### Steps
 
-General:
-* Download the DBC archive file from this repo
-* Upload it to your workspace in Databricks via import file. It should contain: 1 notebook and 3 folders: "data" containing a store_transactions_data.csv file, "queries" contianing 3 sql files, and "images" containing files loaded into this readme.
-* If needed - change the name of the catalog in the notebook (mind, there are multiple locations) and the sql files
+* Upload the materials to your workspace. You can either:
+  1. Download the files and upload it to your workspace in Databricks via "Menu"->"Import"->"File" (you can drag-and-drop all the materials at once)
+  2. Clone the repository (this requires additional set-up as documented here: https://learn.microsoft.com/en-us/azure/databricks/repos/repos-setup)
+* If needed - change the name of the catalog in the notebook (mind, there are multiple locations throughout the sections) and the sql files
 * Run the Notebook by opening the file and licking on "Run all".
 * Review the result in the catalog. It should look similar to the following image:
 ![Expected Catalog](./images/expected_catalog.png)
