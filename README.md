@@ -15,13 +15,22 @@ This readme does not deal with the configuration of compute to be used for runni
 
 General:
 * Download the DBC archive file from this repo
-* Upload it to your workspace in Databricks via import file. It should contain: 1 notebook and 3 sql queries, as well as 2 folders: "data" containing a store_transactions_data.csv file and "images" containing files loaded into this readme.
-* If needed - change the name of the catalog in the notebook (mind, there are multiple locations) and the sql queries
+* Upload it to your workspace in Databricks via import file. It should contain: 1 notebook and 3 folders: "data" containing a store_transactions_data.csv file, "queries" contianing 3 sql files, and "images" containing files loaded into this readme.
+* If needed - change the name of the catalog in the notebook (mind, there are multiple locations) and the sql files
 * Run the Notebook by opening the file and licking on "Run all".
 * Review the result in the catalog. It should look similar to the following image:
 ![Expected Catalog](./images/expected_catalog.png)
+* Create Databricks queries out of the SQL files (see instruction below)
 * Run the data quality queries. The simplest way to do is to open each of the queries and click on "Run".
 * Configure visualisations and create a data quality dashboard (see additional instructions below)
+
+#### Creating queries
+
+Open the "SQL editor" from the menu on the left and copy-paste the code of a sql file into a query (see image). 
+
+![Expected Query](./images/expected_query.png)
+
+You can verify that a query was created by seeing it in the "Queries" section, and by the end of the process you should see 3 different ones. For better compatibility with the rest of the instructions we recommend to rename each query to the name of the corresponding sql file. Note that changes aren't automatically captured, so you need to explicitly save a query after each modification.
 
 #### Configuring visualisations
 
