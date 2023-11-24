@@ -16,7 +16,7 @@ This readme does not deal with the configuration of compute to be used for runni
 - 1 python file (will be interpreted as notebook on Databricks) 
 - 3 folders: 
   1. "data" has a single store_transactions_data.csv file
-  2. "queries" with .3 sql files
+  2. "queries" with 3 .sql files
   3. "images" containing files loaded into this readme
 
 ### Steps
