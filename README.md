@@ -22,15 +22,15 @@ This readme does not deal with the configuration of compute to be used for runni
 ### Steps
 
 * Upload the materials to your workspace. You can either:
-  1. Download the files and upload it to your workspace in Databricks via "Menu"->"Import"->"File" (you can drag-and-drop all the materials at once)
+  1. Download the files and upload it to your workspace in Databricks via menu -> "Import" -> "File" (you can drag-and-drop all the materials at once)
   2. Clone the repository (this requires additional set-up as documented here: https://learn.microsoft.com/en-us/azure/databricks/repos/repos-setup)
-* If needed - change the name of the catalog in the notebook (mind, there are multiple locations throughout the sections) and the sql files
+* If needed - change the name of the catalog in the notebook (mind, there are multiple locations throughout the sections) and the sql files.
 * Run the Notebook by opening the file and licking on "Run all".
-* Review the result in the catalog. It should look similar to the following image:
+* Review the result in the "Catalog" section from the menu on the left. It should look similar to the following image:
 ![Expected Catalog](./images/expected_catalog.png)
-* Create Databricks queries out of the SQL files (see instruction below)
+* Create Databricks queries out of the SQL files (see instruction below).
 * Run the data quality queries. The simplest way to do is to open each of the queries and click on "Run".
-* Configure visualisations and create a data quality dashboard (see additional instructions below)
+* Configure visualisations and create a data quality dashboard (see additional instructions below).
 
 #### Creating queries
 
