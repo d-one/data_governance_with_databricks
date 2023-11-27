@@ -1,7 +1,7 @@
 # Basic Data Governance with Databricks
 Repository for the D ONE blogpost for basic data governance using Databricks
 
-Medium post link : 
+Medium post link : [here](https://medium.com/d-one/data-governance-on-databricks-101-92cca606b95a)
 
 ### Recreating the Store Transactions example
 
